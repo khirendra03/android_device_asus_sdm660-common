@@ -1,4 +1,4 @@
-#
+ #
 # Copyright (C) 2020 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
@@ -428,9 +428,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     telephony-ext
 
-# Thermal
+# Touch
 PRODUCT_PACKAGES += \
-    android.hardware.thermal@2.0-service.qti
+    vendor.lineage.touch@1.0-service.asus_sdm660
 
 # USB
 PRODUCT_PACKAGES += \
