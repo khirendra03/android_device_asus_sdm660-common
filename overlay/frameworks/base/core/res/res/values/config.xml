@@ -255,4 +255,14 @@
     <string name="config_SmartChargingSuspendValue" translatable="false">0</string>
     <string name="config_SmartChargingResumeValue" translatable="false">1</string>
 
+    <!-- If true, the display will be shifted around in ambient mode. -->
+    <bool name="config_enableBurnInProtection">true</bool>
+
+    <!-- Flashlight on power button -->
+    <integer name="config_flashlightProximityTimeout">3000</integer>
+
+    <!-- Do the battery/notification LEDs support pulsing?
+         Used to decide if we show pulse settings -->
+    <bool name="config_ledCanPulse">true</bool>
+
 </resources>
